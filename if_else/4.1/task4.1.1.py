@@ -24,3 +24,6 @@ if password1 == password2:
     print('Пароль принят')
 else:
     print('Пароль не принят')
+    print('some test')
+    print('somet additional test')
+    print("test")
