@@ -23,7 +23,25 @@
 #         total += num
 # print('Summ of numbers that bigger of ten equal', total)
 
-total = 0
-for i in range(1, 101):
-    total += i
-print(total)
+# total = 0
+# for i in range(1, 101):
+#     total += i
+# print(total)
+
+# num = int(input())
+# flag = True
+# for i in range(2, num):
+#     if num % 2 == 0:
+#         flag = False
+# if num == 1:
+#     print('this is the one')
+# elif flag == True:
+#     print('simple num')
+# else:
+#     print('the num is difulct')
+largest = -1
+for i in range(10):
+    num = int(input())
+    if num > largest:
+        largest = num
+print('the largest num is,', largest)
