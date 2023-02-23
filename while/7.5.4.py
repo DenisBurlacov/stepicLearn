@@ -1,0 +1,12 @@
+num = int(input())
+sum = 0
+num_quantity = 0
+math = 1
+last = num % 10
+while num != 0:
+    sum += num % 10
+    first_num = num % 10
+    num_quantity += 1
+    math *= num % 10
+    num = num // 10
+print(sum, num_quantity, math, sum / num_quantity, first_num, first_num + last, sep='\n')
