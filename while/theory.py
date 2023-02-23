@@ -15,15 +15,23 @@
 #     total += num
 #     text = input()
 # print('the summ of the numbers equel', total)
-num = int(input())
-has_sever = False
-while num != 0:
-    last_digit = num % 10
-    if last_digit == 7:
-        has_sever = True
-    num = num // 10
-
-if has_sever:
-    print('YES')
-else:
-    print('NO')
+# num = int(input())
+# has_sever = False
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit == 7:
+#         has_sever = True
+#     num = num // 10
+#
+# if has_sever:
+#     print('YES')
+# else:
+#     print('NO')
+mult = 1
+for i in range(1, 11):
+   if i % 2 == 0:
+      continue
+   if i % 9 == 0:
+      break
+   mult *= i
+print(mult)
