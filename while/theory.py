@@ -1,4 +1,29 @@
-i = 0
-while i < 101:
-    print(i)
-    i += 1
+# i = 0
+# while i < 10:
+#     print('Hello')
+#     i += 1
+
+# num = int(input())
+# while num != -1:
+#     print('the squeare of your number equel:', num * num)
+#     num = int(input())
+
+# text = input()
+# total = 0
+# while text != 'stop':
+#     num = int(text)
+#     total += num
+#     text = input()
+# print('the summ of the numbers equel', total)
+num = int(input())
+has_sever = False
+while num != 0:
+    last_digit = num % 10
+    if last_digit == 7:
+        has_sever = True
+    num = num // 10
+
+if has_sever:
+    print('YES')
+else:
+    print('NO')
