@@ -15,7 +15,7 @@
 #     total += num
 #     text = input()
 # print('the summ of the numbers equel', total)
-# num = int(input())
+# # num = int(input())
 # has_sever = False
 # while num != 0:
 #     last_digit = num % 10
@@ -27,11 +27,18 @@
 #     print('YES')
 # else:
 #     print('NO')
-mult = 1
-for i in range(1, 11):
-   if i % 2 == 0:
-      continue
-   if i % 9 == 0:
-      break
-   mult *= i
-print(mult)
+# mult = 1
+# for i in range(1, 11):
+#    if i % 2 == 0:
+#       continue
+#    if i % 9 == 0:
+#       break
+#    mult *= i
+# print(mult)
+
+# for seconds in range(1, 60 + 1):
+#     print(seconds)
+
+for i in range(1, 4):
+    for j in range(3, 5):
+        print(i + j, end='')
